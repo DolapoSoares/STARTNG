@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+function validate () {
+   
+   let Name = document.getElementById("Name");
+   let Message = document.getElementById("Message");
+
+  if(Name.value < 4){
+    alert("Needed")
+       return false;
+  }
+  if(Message.value < 20){
+    alert("Needed")
+    return false;
+  }
+}
+
+
+</script>
+<main class="main">
+   <img class="center" src="https://res.cloudinary.com/soares04/image/upload/v1566492008/uxxbl8xkagqeo9h00pl8.jpg" alt="Picture" width="250px" height="250px"/>
+<hr/>
+   <style>
+     .main {
+       border: solid;
+       padding: 10px 10px 10px 10px;
+     }
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+
+     }
+     h1{
+       font-size: 40px;
+     }
+      h2, h3{
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+      }
+      p {
+        font-size:20px;
+      }
+      p1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      }
+      .input,.msg {
+        margin: 10px;
+        align: left;
+         
+      }
+      .input{
+        border: solid;
+      }
+      .msg textarea{
+        height: 50px;
+        border: solid;
+      }
+      button{
+        border: solid
+      }
+   </style>
+   <hr>
+   <h1>MY -CV</h1>
+   
+   <hr/>
+   <body>
+   <h2 style="text-align:left";>Soares Dolapo</h2>
+     <p>No 3, lateef Dosumu street,lfako Gbagada Lagos.<p>
+     <p><strong>+2348088644250</strong></p>
+     <p><strong>soaresdolapo@gmail.com</strong></p>
+   
+  <hr/>
+ 
+   <h3>Skills</h3>
+   <p><ul>
+       <li>Autocad 3D.</li>
+       <li>Analytical Skills.</li>
+       <li>Ability to learn fast.</li>
+       <li>HTML</li>
+       <li>CSS</li>
+       </ul>   
+     </p>
+     <h3>Experience</h3><br>
+     <p1>2017 - February</p1>
+     <p><strong>WORLD HEALTH ORGANIZATION</strong> - Independent monitor.</p>
+     <p>
+       <ul>
+       <li>Did a survey in the southern part of calabar to see how many households knew about vaccines.</li>
+       </ul>
+     </p><br>
+     <p1>2016(JUNE) - 2017(MAY)</p1>
+     <p><strong>CALABAR SOUTH ANANTIGHA LOCAL GOVERNMENT</strong> - NYSC</p>
+     <p></p>
+       <ul>
+         <li>I worked with the Engineering Department.</li>
+       </ul>
+     </p><br/>
+     <p1>2013 - April</p1>
+     <p><strong>AUTOMEDICS SYSTEM VENTURE</strong> - Internship.</p>
+     <p>
+       <ul>
+         <li>Worked on various vehicles  and how to maintain repairs in the vehicle.</li>
+       </ul>
+     </p>
+ </body>
+ <hr/>
+ <footer>
+     <h3>EDUCATION</h3><br>
+     <p1>November(2009) - May(2015)</p1>
+     <p><strong>UNIVERSITY OF LAGOS</strong> - B.Sc Mechanical Engineering.</p>
+ </footer><hr>
+ 
+  <h3>
+      <div>CONTACT ME</div>
+  </h3>
+
+ 
+<form action="#" method="post" onsubmit="return validate()">
+  <div class="wrapper">
+    <div class="contact-form" id="Form">
+      <div class="input-fields" >
+          <input type="text" placeholder="Name" class="input" id="Name" ><br>
+          <input type="text" placeholder="Email" class="input" id="Email"><br>
+          <input type="type" placeholder="Title" class="input"><br>
+      </div>
+      <div class = "msg">
+          <textarea id ="Message" placeholder="Message"></textarea><br>
+          <button id="submit" type="submit">Send</button>   
+      </div>             
+
+   </div>
+  </div>
+</form>
+
+</html>
+       
+</main>
+</html>
